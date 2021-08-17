@@ -10,7 +10,7 @@ function Home() {
             <article className="home-intro">
                 <h1 className="home-intro-heading">Vibhore Jain</h1>
                 <h4 className="home-intro-description">
-                    I am&nbsp; <Typewriter options={{ strings: ["a Student.", "a Learner.", "a Web Developer.",], autoStart: true, loop: true, }} />
+                    I am&nbsp; <Typewriter options={{ strings: ["a Student.", "a Learner.", "a Developer.",], autoStart: true, loop: true, }} />
 
                 </h4>
                 <ul className="home-intro-social-links">
