@@ -1,0 +1,30 @@
+:root {
+    --primary-bg: 226, 248, 255;
+    --primary-text-color: 39, 176, 222;
+    --secondary-text-color: 23, 105, 133;
+  }
+* {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    line-height: 130%;
+  }
+  ul {
+    list-style: none;
+    padding : 0;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  body {
+    background-color: rgb(var(--primary-bg));
+    color: rgb(var(--primary-text-color));
+  }
+  ::-webkit-scrollbar{
+    height: 10px;
+    width : 8px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: rgb(var(--primary-text-color));
+  }
