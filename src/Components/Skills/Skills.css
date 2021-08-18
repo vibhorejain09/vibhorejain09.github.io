@@ -1,0 +1,35 @@
+#skills{
+    margin-top: 7rem;
+}
+.skills-container {
+    display: flex;
+    align-items: center;
+    padding: 3rem 2rem;
+  }
+  .skills-container-content{
+      font-size: 1rem;
+  }
+  .skills-container>* {
+    padding: 1rem 1rem;
+  }
+
+  .skill-container{
+    border: 2px solid rgb(var(--primary-text-color));
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+  }
+  .skill-container:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  .skill-container-logo {
+    height: 40px;
+  }
+  .skill-container-name{
+    margin-top: 1rem;
+  }

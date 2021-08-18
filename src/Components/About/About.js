@@ -21,7 +21,7 @@ function About() {
                     <p style={{ maxWidth: "500px" }}>
                     A passionate programmer. Always eager to learn new 
                     technologies. Third year student currently pursuing 
-                    my B.Tech. in Computer Science from Shri Govindram 
+                    my B.Tech in Computer Science from Shri Govindram 
                     Seksaria Institute of Technology and Science, Indore.
                     I love to learn new things, always looking forword to improve 
                     my skills. Loves to do coding on platform like Codechef, LeetCode,
