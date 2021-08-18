@@ -11,7 +11,7 @@ function Header() {
     const height = useWindowHeight()
     const [open, setOpen] = useState(false);
     return (
-        <div style={{ position: "fixed", width: "100%" }}>
+        <div style={{ position: "fixed", width: "100%", zIndex:999 }}>
             <div id="collapsed-header" style={{ position: "absolute", width: width, height: height, top: open ? "0" : "-2000px", transition: "all 0.5s ease-in", display: width > 700 ? "none" : "flex", flexDirection: "column" }}>
                 <div style={{ display: "flex", justifyContent: "flex-end", padding: "1rem 1rem" }}>
                     <div onClick={() => setOpen(false)} style={{ cursor: "pointer" }}>
