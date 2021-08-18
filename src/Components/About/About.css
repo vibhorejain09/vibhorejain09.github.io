@@ -1,0 +1,14 @@
+.about-me {
+    display: flex;
+    align-items: center;
+    padding: 3rem 2rem;
+  }
+  .about-me-content{
+      font-size: 1.3rem;
+  }
+  .about-me>* {
+    padding: 1rem 1rem;
+  }
+  
+  
+  
