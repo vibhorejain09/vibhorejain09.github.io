@@ -28,7 +28,7 @@ function Skills() {
                     <div>
                         <img src={imgskill} alt="myimg" style={{ width: halfWidth > 500 ? halfWidth * 0.4 : width * 0.4 }} className="skills-container-image" />
                     </div>
-                    <div className="skills-container-content" style={{ display: "flex", justifyContent: "space-evenly", width: "100%", maxWidth: "780px", flexWrap: "wrap", overflow: "hidden" }}>
+                    <div className="skills-container-content" style={{ display: "flex", justifyContent: "space-evenly", width: "100%", maxWidth: "800px", flexWrap: "wrap", overflow: "hidden" }}>
                         {mySkills.map((data, idx) =>
                             <MySkillsContainer key={idx} name={data.name} icon={data.icon} />
                         )}
