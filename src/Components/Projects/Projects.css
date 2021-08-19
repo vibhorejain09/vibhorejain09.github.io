@@ -8,7 +8,7 @@
   margin: 1rem 1rem;
   place-items: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(274px, 1fr));
   grid-gap: 3.5rem;
   padding: 2rem 2rem;
 }
@@ -52,3 +52,15 @@
 .project-code-link:hover, .project-demo-link:hover{
     color: rgb(var(--secondary-text-color));
 } 
+
+@media (max-width:365px)
+{
+    .project-content-card{
+        margin: 1rem 1rem;
+        place-items: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-gap: 3.5rem;
+        padding: 2rem 2rem;
+      }   
+}
