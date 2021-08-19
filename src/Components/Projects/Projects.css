@@ -8,7 +8,7 @@
   margin: 1rem 1rem;
   place-items: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 2fr));
   grid-gap: 3.5rem;
   padding: 2rem 2rem;
 }
