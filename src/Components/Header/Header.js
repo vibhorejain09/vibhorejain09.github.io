@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import { Menu, Close, Instagram, LinkedIn, Facebook, Twitter } from '@material-ui/icons'
+import { Menu, Close, Instagram, LinkedIn, Facebook, Email, GitHub } from '@material-ui/icons'
 import header_logo from '../../Assets/logo.svg'
 import './Header.css'
 import windowWidth from '../../Utils/windowWidth'
 import useWindowHeight from '../../Utils/windowHeight'
-
+import MoveToTop from '../MoveToTop/MoveToTop'
+import { Link } from 'react-scroll';
 
 function Header() {
     const width = windowWidth()
@@ -12,46 +13,60 @@ function Header() {
     const [open, setOpen] = useState(false);
     return (
         <div style={{ position: "fixed", width: "100%", zIndex: 999 }}>
+            <MoveToTop open={open} />
             <div id="collapsed-header" style={{ position: "absolute", width: width, height: height, top: open ? "0" : "-2000px", transition: "all 0.5s ease-in", display: width > 700 ? "none" : "flex", flexDirection: "column" }}>
                 <div style={{ display: "flex", justifyContent: "flex-end", padding: "1rem 1rem" }}>
-                    <div onClick={() => setOpen(false)} style={{ cursor: "pointer" }}>
+                    <div onClick={() => setOpen(false)} style={{ cursor: "pointer" }} className="header-close-icon">
                         <Close fontSize="large" />
                     </div>
                 </div>
                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", height: "80%" }}>
                     <ul className="collapsed-header-nav-items">
                         <li >
-                            About
+                            <Link activeClass='active-link' onClick={() => setOpen(false)} to='about' smooth={true} offset={-100} spy={true}>About</Link>
                         </li>
-                        <li >
-                            Experience
+                        <li onClick={() => setOpen(false)}>
+                            <Link activeClass='active-link' onClick={() => setOpen(false)} to='experience' smooth={true} offset={-100} spy={true}>Experience</Link>
                         </li>
-                        <li >
-                            Education
+                        <li onClick={() => setOpen(false)}>
+                            <Link activeClass='active-link' onClick={() => setOpen(false)} to='education' smooth={true} offset={-100} spy={true} >Education</Link>
                         </li>
-                        <li >
-                            Skills
+                        <li onClick={() => setOpen(false)}>
+                            <Link activeClass='active-link' onClick={() => setOpen(false)} to='skills' smooth={true} offset={-100} spy={true}>Skills</Link>
                         </li>
-                        <li >
-                            Projects
+                        <li onClick={() => setOpen(false)}>
+                            <Link activeClass='active-link' onClick={() => setOpen(false)} to='projects' smooth={true} offset={-100} spy={true}>Projects</Link>
                         </li>
-                        <li >
-                            Contact
+                        <li onClick={() => setOpen(false)}>
+                            <Link activeClass='active-link' onClick={() => setOpen(false)} to='contact' smooth={true} offset={-100} spy={true}>Contact</Link>
                         </li>
                     </ul>
                     <div className="collapsed-header-social-container">
                         <ul className="collapsed-header-social-links">
                             <li>
-                                <LinkedIn fontSize="large" />
+                                <a href="https://github.com/vibhorejain09" target="_blank" className="home-social-link" rel="noreferrer">
+                                    <GitHub fontSize="large" />
+                                </a>
                             </li>
                             <li>
-                                <Instagram fontSize="large" />
+                                <a href="https://www.linkedin.com/in/vibhore-jain" target="_blank" className="home-social-link" rel="noreferrer">
+                                    <LinkedIn fontSize="large" />
+                                </a>
                             </li>
                             <li>
-                                <Twitter fontSize="large" />
+                                <a href="https://instagram.com/vibhorejain_0911" target="_blank" className="home-social-link" rel="noreferrer">
+                                    <Instagram fontSize="large" />
+                                </a>
                             </li>
                             <li>
-                                <Facebook fontSize="large" />
+                                <a href="mailto:vibhore.jain.eng@gmail.com" target="_blank" className="home-social-link" rel="noreferrer">
+                                    <Email fontSize="large" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/vibhore.jain.902" target="_blank" className="home-social-link" rel="noreferrer">
+                                    <Facebook fontSize="large" />
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -67,25 +82,25 @@ function Header() {
                 {
                     width > 700 ?
                         <ul className="header-nav-items">
-                            <li >
-                                About
+                            <li>
+                                <Link activeClass='active-link' onClick={() => setOpen(false)} to='about' smooth={true} offset={-100} spy={true}>About</Link>
                             </li>
-                            <li >
-                                Experience
+                            <li>
+                                <Link activeClass='active-link' onClick={() => setOpen(false)} to='experience' smooth={true} offset={-100} spy={true}>Experience</Link>
                             </li>
-                            <li >
-                                Education
+                            <li>
+                                <Link activeClass='active-link' onClick={() => setOpen(false)} to='education' smooth={true} offset={-100} spy={true}>Education</Link>
                             </li>
-                            <li >
-                                Skills
+                            <li>
+                                <Link activeClass='active-link' onClick={() => setOpen(false)} to='skills' smooth={true} offset={-100} spy={true}>Skills</Link>
                             </li>
-                            <li >
-                                Projects
+                            <li>
+                                <Link activeClass='active-link' onClick={() => setOpen(false)} to='projects' smooth={true} offset={-100} spy={true}>Projects</Link>
                             </li>
-                            <li >
-                                Contact
+                            <li>
+                                <Link activeClass='active-link' onClick={() => setOpen(false)} to='contact' smooth={true} offset={-100} spy={true}>Contact</Link>
                             </li>
-                        </ul> : <div onClick={() => setOpen(true)} style={{ cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                        </ul> : <div onClick={() => setOpen(true)} style={{ cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }} className="header-menu-icon">
                             <Menu fontSize="large" />
                         </div>
                 }

@@ -37,6 +37,7 @@
       font-size: 2rem;
       cursor: pointer;
       transition: all 0.3s ease-in;
+      color: rgb(var(--primary-text-color));
   }
   
   .collapsed-header-nav-items > li:hover {
@@ -50,7 +51,17 @@
   .collapsed-header-social-links > li{
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    color: rgb(var(--primary-text-color));
   }
   .collapsed-header-social-links > li:hover{
     color: rgb(var(--secondary-text-color));
+  }
+  .active-link{
+    border-bottom: 3px solid rgb(var(--secondary-text-color)) !important;
+  }
+  .header-close-icon{
+    color:rgb(var(--primary-text-color));
+  }
+  .header-menu-icon{
+    color: rgb(var(--primary-text-color));
   }

@@ -22,13 +22,11 @@ function Skills() {
     return (
         <ScrollAnimation animateIn='fadeIn' delay={200}>
             <div id="skills">
-                <ScrollAnimation animateIn='bounceInRight' delay={200}>
-                    <div className="heading">
-                        <span style={{ borderBottom: '2px solid rgb(var(--secondary-text-color))' }}>
-                            Skills
-                        </span>
-                    </div>
-                </ScrollAnimation>
+                <div className="heading">
+                    <span style={{ borderBottom: '2px solid rgb(var(--secondary-text-color))' }}>
+                        Skills
+                    </span>
+                </div>
                 <div className="skills-container" style={{ flexDirection: halfWidth > 500 ? "row" : "column", justifyContent: halfWidth > 500 ? "space-around" : "center" }}>
                     <div>
                         <img src={imgskill} alt="myimg" style={{ width: halfWidth > 500 ? halfWidth * 0.5 : width * 0.4 }} className="skills-container-image" />

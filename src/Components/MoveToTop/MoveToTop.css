@@ -1,0 +1,17 @@
+.move-to-top{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(var(--primary-text-color));
+    padding: 1rem 1rem;
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    color: rgb(var(--primary-bg));
+    cursor: pointer;
+}
+.move-to-top:hover{
+    background-color: rgb(var(--secondary-text-color));
+}

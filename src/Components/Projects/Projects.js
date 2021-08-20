@@ -8,13 +8,11 @@ function Projects() {
     return (
         <ScrollAnimation animateIn='fadeIn' delay={200}>
             <div id="projects">
-                <ScrollAnimation animateIn='bounceInRight' delay={200}>
-                    <div className="heading">
-                        <span style={{ borderBottom: '2px solid rgb(var(--secondary-text-color))' }}>
-                            Projects
-                        </span>
-                    </div>
-                </ScrollAnimation>
+                <div className="heading">
+                    <span style={{ borderBottom: '2px solid rgb(var(--secondary-text-color))' }}>
+                        Projects
+                    </span>
+                </div>
                 <div className="projects-content">
                     <div className="project-content-card">
                         {myProjects.map((project) => {

@@ -9,11 +9,11 @@
 }
 .mui-timeline-content-elementOne{
     font-size: 1rem;
-    color: var(--content-text-color);
+    color: rgb(var(--primary-text-color));
 }
 .mui-timeline-content-elementTwo{
     font-size: 1rem;
-    background-color: grey;
+    background-color: rgb(var(--primary-text-color));
     border-radius: 20px;
     padding: 0.5rem 0.5rem;
     display: block;
@@ -34,14 +34,14 @@
 .MuiTimelineConnector-root {
     width: 4px !important;
     flex-grow: 1;
-    background-color: grey !important;
+    background-color: var(--content-text-color) !important;
 }
 .mui-timeline-content-elementTwo-div{
   display: flex;
 }
 .MuiTimelineDot-outlinedGrey {
     box-shadow: none !important;
-    border-color: grey !important;
+    border-color: var(--content-text-color) !important;
     background-color: transparent !important;
 }
 .MuiTimelineDot-root {
