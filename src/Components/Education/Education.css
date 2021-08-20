@@ -1,0 +1,19 @@
+#education{
+    margin-top: 6rem;
+}
+.education-content {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+}
+.education-content-details{
+  font-size: 1rem;
+}
+.education-content>* {
+  padding: 1rem 0rem;
+}
+
+.education-content-details-timeline{
+  display:block;
+}
+  

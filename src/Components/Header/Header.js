@@ -11,7 +11,7 @@ function Header() {
     const height = useWindowHeight()
     const [open, setOpen] = useState(false);
     return (
-        <div style={{ position: "fixed", width: "100%", zIndex:999 }}>
+        <div style={{ position: "fixed", width: "100%", zIndex: 999 }}>
             <div id="collapsed-header" style={{ position: "absolute", width: width, height: height, top: open ? "0" : "-2000px", transition: "all 0.5s ease-in", display: width > 700 ? "none" : "flex", flexDirection: "column" }}>
                 <div style={{ display: "flex", justifyContent: "flex-end", padding: "1rem 1rem" }}>
                     <div onClick={() => setOpen(false)} style={{ cursor: "pointer" }}>
@@ -24,7 +24,7 @@ function Header() {
                             About
                         </li>
                         <li >
-                            Experience                            
+                            Experience
                         </li>
                         <li >
                             Education
@@ -42,24 +42,16 @@ function Header() {
                     <div className="collapsed-header-social-container">
                         <ul className="collapsed-header-social-links">
                             <li>
-                                
-                                    <LinkedIn fontSize="large" />
-                                
+                                <LinkedIn fontSize="large" />
                             </li>
                             <li>
-                                
-                                    <Instagram fontSize="large" />
-                                
+                                <Instagram fontSize="large" />
                             </li>
                             <li>
-            
-                                    <Twitter fontSize="large" />
-                                
+                                <Twitter fontSize="large" />
                             </li>
                             <li>
-                                
-                                    <Facebook fontSize="large" />
-                                
+                                <Facebook fontSize="large" />
                             </li>
                         </ul>
                     </div>
@@ -76,24 +68,24 @@ function Header() {
                     width > 700 ?
                         <ul className="header-nav-items">
                             <li >
-                            About
-                        </li>
-                        <li >
-                            Experience                            
-                        </li>
-                        <li >
-                            Education
-                        </li>
-                        <li >
-                            Skills
-                        </li>
-                        <li >
-                            Projects
-                        </li>
-                        <li >
-                            Contact
-                        </li>
-                        </ul> : <div onClick={() => setOpen(true)} style={{ cursor: "pointer", display:"flex", alignItems:"center", justifyContent:"center" }}>
+                                About
+                            </li>
+                            <li >
+                                Experience
+                            </li>
+                            <li >
+                                Education
+                            </li>
+                            <li >
+                                Skills
+                            </li>
+                            <li >
+                                Projects
+                            </li>
+                            <li >
+                                Contact
+                            </li>
+                        </ul> : <div onClick={() => setOpen(true)} style={{ cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}>
                             <Menu fontSize="large" />
                         </div>
                 }

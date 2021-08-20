@@ -1,0 +1,62 @@
+.MuiTimelineItem-missingOppositeContent:before{
+    flex : 0.5 !important;
+}
+.mui-timeline-content>*{
+    margin : 0.6rem 0;
+}
+.mui-timeline-content>*:first-child{
+    margin-top:0 !important;
+}
+.mui-timeline-content-elementOne{
+    font-size: 1rem;
+    color: var(--content-text-color);
+}
+.mui-timeline-content-elementTwo{
+    font-size: 1rem;
+    background-color: grey;
+    border-radius: 20px;
+    padding: 0.5rem 0.5rem;
+    display: block;
+    color: rgb(var(--primary-bg));
+}
+.mui-timeline-content-elementThree{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    font-style: italic;
+    color: var(--content-text-color);
+}
+.mui-timeline-content-elementFour{
+    font-size: 1rem;
+    font-weight: lighter;
+    font-style: normal;
+    color: var(--content-text-color);
+}
+.MuiTimelineConnector-root {
+    width: 4px !important;
+    flex-grow: 1;
+    background-color: grey !important;
+}
+.mui-timeline-content-elementTwo-div{
+  display: flex;
+}
+.MuiTimelineDot-outlinedGrey {
+    box-shadow: none !important;
+    border-color: grey !important;
+    background-color: transparent !important;
+}
+.MuiTimelineDot-root {
+    display: flex !important;
+    padding: 6px !important;
+    align-self: baseline !important;
+    margin-top: 8px !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    border-radius: 50% !important;
+    margin-bottom: 8px !important;
+}
+@media (max-width:900px)
+{
+    .MuiTimelineItem-missingOppositeContent:before{
+        flex : 0 !important;
+      }   
+}

@@ -1,8 +1,8 @@
 #projects{
-    margin-top: 6rem;
+  margin-top: 6rem;
 }
 .project-contents{
-    padding: 3rem 2rem;
+  padding: 3rem 2rem;
 }
 .project-content-card{
   margin: 1rem 1rem;
@@ -14,7 +14,7 @@
 }
 .project-card{
   width: 100%;
-  border: 2px solid rgb(var(--primary-text-color));
+  border: 2px solid var(--content-text-color);
   padding: 1rem 1rem;
   border-radius: 0.7rem;
   justify-content: space-evenly;
@@ -26,41 +26,40 @@
   box-shadow: 0 0 15px 0 rgb(var(--primary-text-color));
 }
 .project-name {
-    color:rgb(var(--primary-text-color));
-    text-align: left;
-    font-size: 1.5rem;
-    padding: 1rem;
-    letter-spacing: 0.1rem;
-  }
+  color:rgb(var(--primary-text-color));
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+}
 .project-description{
-    color:rgb(var(--primary-text-color));
-    text-align: left;
-    font-size: 1rem;
-    padding: 1rem;
-    letter-spacing: 0.1rem;   
+  color:var(--content-text-color);
+  text-align: left;
+  font-size: 1rem;
+  padding: 1rem;
+  letter-spacing: 0.1rem;   
 }
 .project-link{
-    padding: 1rem 0.5rem;
+  padding: 1rem 0.5rem;
 }
 .project-code-link,.project-demo-link{
-    color:rgb(var(--primary-text-color));
-    text-align: left;
-    cursor: pointer;
-    padding: 0 0.5rem;
-    transition: all 0.2s ease-in-out;
+  color:rgb(var(--primary-text-color));
+  text-align: left;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  transition: all 0.2s ease-in-out;
 }
 .project-code-link:hover, .project-demo-link:hover{
-    color: rgb(var(--secondary-text-color));
+  color: rgb(var(--secondary-text-color));
 } 
-
 @media (max-width:365px)
 {
-    .project-content-card{
-        margin: 1rem 1rem;
-        place-items: center;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-        grid-gap: 3.5rem;
-        padding: 2rem 2rem;
-      }   
+  .project-content-card{
+    margin: 1rem 1rem;
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 3.5rem;
+    padding: 2rem 2rem;
+  }   
 }

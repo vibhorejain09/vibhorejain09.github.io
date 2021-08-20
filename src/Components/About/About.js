@@ -10,11 +10,13 @@ function About() {
     return (
         <ScrollAnimation animateIn='fadeIn' delay={200}>
             <div id="about">
-                <div className="heading">
-                    <span style={{ borderBottom: '2px solid rgb(var(--secondary-text-color))' }}>
-                        About
-                    </span>
-                </div>
+                <ScrollAnimation animateIn='bounceInRight' delay={200}>
+                    <div className="heading">
+                        <span style={{ borderBottom: '2px solid rgb(var(--secondary-text-color))' }}>
+                            About
+                        </span>
+                    </div>
+                </ScrollAnimation>
                 <div className="about-me" style={{ flexDirection: halfWidth > 500 ? "row" : "column", justifyContent: halfWidth > 500 ? "space-around" : "center" }}>
                     <div>
                         <img src={imgabout} alt="myimg" style={{ width: halfWidth > 500 ? halfWidth * 0.5 : width * 0.5 }} className="about-me-image" />
@@ -28,15 +30,11 @@ function About() {
                             I love to learn new things, always looking forword to improve
                             my skills. Loves to do coding on platform like Codechef, LeetCode,
                             GeeksForGeeks. Highest rating of 1690 on Codechef.
-
                         </p>
                     </div>
                 </div>
-
             </div>
         </ScrollAnimation>
-
-
     )
 }
 

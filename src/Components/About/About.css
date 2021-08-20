@@ -2,21 +2,22 @@
     margin-top: 6rem;
 }
 .about-me {
-    display: flex;
-    align-items: center;
-    padding: 3rem 2rem;
-  }
+  display: flex;
+  align-items: center;
+  padding: 3rem 2rem;
+}
+.about-me-content{
+  font-size: 1.3rem;
+  color: var(--content-text-color);
+}
+.about-me>* {
+  padding: 1rem 1rem;
+}
+@media (max-width:900px)
+{
   .about-me-content{
-      font-size: 1.3rem;
+    font-size: 1rem;
   }
-  .about-me>* {
-    padding: 1rem 1rem;
-  }
-  @media (max-width:900px)
-  {
-    .about-me-content{
-        font-size: 1rem;
-    }
-  }
+}
   
   

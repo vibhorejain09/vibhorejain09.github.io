@@ -1,34 +1,35 @@
 :root {
-    --primary-bg: 226, 248, 255;
-    --primary-text-color: 39, 176, 222;
-    --secondary-text-color: 23, 105, 133;
-  }
-* {
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    letter-spacing: 1px;
-    line-height: 130%;
-  }
-  ul {
-    list-style: none;
-    padding : 0;
-  }
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  .heading{
-    text-align: center;
-    font-size: 2.5rem;
-  }
-  body {
-    background-color: rgb(var(--primary-bg));
-    color: rgb(var(--primary-text-color));
-  }
-  ::-webkit-scrollbar{
+  --primary-bg: 226, 248, 255;
+  --primary-text-color: 39, 176, 222;
+  --secondary-text-color: 23, 105, 133;
+  --content-text-color: grey;
+}
+*{
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  line-height: 130%;
+}
+ul {
+  list-style: none;
+  padding : 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.heading{
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(var(--primary-text-color));
+}
+body {
+  background-color: rgb(var(--primary-bg));
+}
+::-webkit-scrollbar{
     height: 10px;
     width : 8px;
-  }
-  ::-webkit-scrollbar-thumb{
-    background-color: rgb(var(--primary-text-color));
-  }
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(var(--primary-text-color));
+}

@@ -1,0 +1,35 @@
+#experience{
+    margin-top: 6rem;
+}
+.experience-content {
+  display: flex;
+  align-items: center;
+  padding: 1rem 10rem;
+}
+.experience-content-details{
+  font-size: 1rem;
+}
+.experience-content>* {
+  padding: 1rem 0rem;
+}
+.experience-content-details-timeline{
+  display:block;
+}
+
+@media (max-width:900px)
+{
+  .experience-content {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+  }    
+}
+@media (max-width:370px)
+{
+  .experience-content {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0.5rem;
+  }    
+}
+

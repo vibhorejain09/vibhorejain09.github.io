@@ -1,22 +1,20 @@
 import React from 'react'
 import './Projects.css'
-import windowWidth from '../../Utils/windowWidth'
 import myProjects from './projectData';
 import { GitHub, Link } from '@material-ui/icons'
 import ScrollAnimation from 'react-animate-on-scroll';
 
 function Projects() {
-    const width = windowWidth()
-    const halfWidth = width / 2;
-
     return (
         <ScrollAnimation animateIn='fadeIn' delay={200}>
             <div id="projects">
-                <div className="heading">
-                    <span style={{ borderBottom: '2px solid rgb(var(--secondary-text-color))' }}>
-                        Projects
-                    </span>
-                </div>
+                <ScrollAnimation animateIn='bounceInRight' delay={200}>
+                    <div className="heading">
+                        <span style={{ borderBottom: '2px solid rgb(var(--secondary-text-color))' }}>
+                            Projects
+                        </span>
+                    </div>
+                </ScrollAnimation>
                 <div className="projects-content">
                     <div className="project-content-card">
                         {myProjects.map((project) => {
