@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1170c68.chunk.css",
-    "main.js": "/static/js/main.6881c060.chunk.js",
-    "main.js.map": "/static/js/main.6881c060.chunk.js.map",
+    "main.css": "/static/css/main.94b6efdf.chunk.css",
+    "main.js": "/static/js/main.fc448a9a.chunk.js",
+    "main.js.map": "/static/js/main.fc448a9a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
     "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
     "static/js/2.86d0b9a7.chunk.js": "/static/js/2.86d0b9a7.chunk.js",
     "static/js/2.86d0b9a7.chunk.js.map": "/static/js/2.86d0b9a7.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b1170c68.chunk.css.map": "/static/css/main.b1170c68.chunk.css.map",
+    "static/css/main.94b6efdf.chunk.css.map": "/static/css/main.94b6efdf.chunk.css.map",
     "static/js/2.86d0b9a7.chunk.js.LICENSE.txt": "/static/js/2.86d0b9a7.chunk.js.LICENSE.txt",
     "static/media/aboutimage.ad2ed2b4.png": "/static/media/aboutimage.ad2ed2b4.png",
     "static/media/adobeillustrator.da5e6f1d.svg": "/static/media/adobeillustrator.da5e6f1d.svg",
@@ -38,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.5ebc510a.js",
     "static/js/2.86d0b9a7.chunk.js",
-    "static/css/main.b1170c68.chunk.css",
-    "static/js/main.6881c060.chunk.js"
+    "static/css/main.94b6efdf.chunk.css",
+    "static/js/main.fc448a9a.chunk.js"
   ]
 }
