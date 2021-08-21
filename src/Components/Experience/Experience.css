@@ -16,5 +16,12 @@
   display:block;
 }
 
+@media only screen and (min-width:1000px) and (max-width:1920px)
+{
+  .experience-content{
+    padding: 1rem 8rem;
+  }
+}
+
 
 

@@ -13,11 +13,6 @@
 .about-me>* {
   padding: 1rem 1rem;
 }
-@media (max-width:900px)
-{
-  .about-me-content{
-    font-size: 1rem;
-  }
-}
+
   
   

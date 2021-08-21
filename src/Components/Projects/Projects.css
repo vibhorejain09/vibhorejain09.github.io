@@ -52,7 +52,7 @@
 .project-code-link:hover, .project-demo-link:hover{
   color: rgb(var(--secondary-text-color));
 } 
-@media (max-width:365px)
+@media only screen and (max-width:365px)
 {
   .project-content-card{
     margin: 1rem 1rem;

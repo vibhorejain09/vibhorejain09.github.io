@@ -42,7 +42,7 @@
   color: rgb(var(--secondary-text-color));
   cursor: pointer;
 }
-@media (max-width:900px)
+@media only screen and (max-width:900px)
 {
   .home {
     flex-direction: column;

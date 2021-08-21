@@ -54,7 +54,7 @@
     border-radius: 50% !important;
     margin-bottom: 8px !important;
 }
-@media (max-width:900px)
+@media only screen and (max-width:900px)
 {
     .MuiTimelineItem-missingOppositeContent:before{
         flex : 0 !important;
