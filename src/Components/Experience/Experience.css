@@ -16,20 +16,5 @@
   display:block;
 }
 
-@media (max-width:900px)
-{
-  .experience-content {
-    display: flex;
-    align-items: center;
-    padding: 1rem 1rem;
-  }    
-}
-@media (max-width:370px)
-{
-  .experience-content {
-    display: flex;
-    align-items: center;
-    padding: 1rem 0.5rem;
-  }    
-}
+
 
