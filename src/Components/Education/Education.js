@@ -20,7 +20,7 @@ function Education() {
                 </div>
                 <div className="education-content" style={{ flexDirection: halfWidth > 500 ? "row" : "column", justifyContent: halfWidth > 500 ? "space-around" : "center" }}>
                     <div>
-                        <img src={imgedu} alt="eduimg" style={{ width: halfWidth > 500 ? halfWidth * 0.5 : width * 0.5 }} className="education-content-image" />
+                        <img src={imgedu} alt="eduimg" style={{ width: halfWidth > 500 ? halfWidth * 0.5 : width * 0.4 }} className="education-content-image" />
                     </div>
                     <div className="education-content-details">
                         <div className="education-content-details">

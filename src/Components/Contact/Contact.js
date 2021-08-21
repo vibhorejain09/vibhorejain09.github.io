@@ -17,7 +17,7 @@ function Contact() {
                 </div>
                 <div className="contact-content" style={{ flexDirection: halfWidth > 500 ? "row" : "column", justifyContent: halfWidth > 500 ? "space-around" : "center" }}>
                     <div>
-                        <img src={imgcontact} alt="conimg" style={{ width: halfWidth > 500 ? halfWidth * 0.5 : width * 0.5 }} className="conatct-content-image" />
+                        <img src={imgcontact} alt="conimg" style={{ width: halfWidth > 500 ? halfWidth * 0.5 : width * 0.4 }} className="conatct-content-image" />
                     </div>
                     <div className="contact-content-details">
                         <p style={{ maxWidth: "500px" }}>

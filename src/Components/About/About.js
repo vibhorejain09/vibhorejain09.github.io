@@ -17,10 +17,10 @@ function About() {
                 </div>
                 <div className="about-me" style={{ flexDirection: halfWidth > 500 ? "row" : "column", justifyContent: halfWidth > 500 ? "space-around" : "center" }}>
                     <div>
-                        <img src={imgabout} alt="myimg" style={{ width: halfWidth > 500 ? halfWidth * 0.5 : width * 0.5 }} className="about-me-image" />
+                        <img src={imgabout} alt="myimg" style={{ width: halfWidth > 500 ? halfWidth * 0.4 : width * 0.4 }} className="about-me-image" />
                     </div>
                     <div className="about-me-content">
-                        <p style={{ maxWidth: "500px" }}>
+                        <p style={{ maxWidth: "700px" }}>
                             A passionate programmer. Always eager to learn new
                             technologies. Third year student currently pursuing
                             my B.Tech in Computer Science from Shri Govindram

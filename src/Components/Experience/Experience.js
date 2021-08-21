@@ -20,7 +20,7 @@ function Experience() {
                 </div>
                 <div className="experience-content" style={{ flexDirection: halfWidth > 500 ? "row" : "column", justifyContent: halfWidth > 500 ? "space-around" : "center" }}>
                     <div>
-                        <img src={imgexp} alt="expimg" style={{ width: halfWidth > 500 ? halfWidth * 0.5 : width * 0.5 }} className="experience-content-image" />
+                        <img src={imgexp} alt="expimg" style={{ width: halfWidth > 500 ? halfWidth * 0.5 : width * 0.4 }} className="experience-content-image" />
                     </div>
                     <div className="experinece-content-details">
                         <div className="experience-content-details-timeline">
