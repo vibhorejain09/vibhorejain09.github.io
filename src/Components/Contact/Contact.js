@@ -19,16 +19,20 @@ function Contact() {
                     <div>
                         <img src={imgcontact} alt="conimg" style={{ width: halfWidth > 500 ? halfWidth * 0.5 : width * 0.4 }} className="conatct-content-image" />
                     </div>
-                    <div className="contact-content-details">
-                        <p style={{ maxWidth: "700px" }}>
-                            A passionate programmer. Always eager to learn new
-                            technologies. Third year student currently pursuing
-                            my B.Tech in Computer Science from Shri Govindram
-                            Seksaria Institute of Technology and Science, Indore.
-                            I love to learn new things, always looking forword to improve
-                            my skills. Loves to do coding on platform like Codechef, LeetCode,
-                            GeeksForGeeks. Highest rating of 1690 on Codechef.
-                        </p>
+                    <div className="contact-content-form">
+                        <div className="contact-content-form-container">
+                            <form name="contact" method="POST" data-netlify="true">
+                                <input type="hidden" name="form-name" value="contact" />
+                                <div className="contact-content-form-group">
+                                    <input type="text" name="name" placeholder="Name" className="contact-content-form-details" required />
+                                    <input type="email" name="email" placeholder="E-mail" className="contact-content-form-details" required />
+                                    <textarea type="text" name="message" placeholder="Message" rows="6" className="contact-content-form-details" required />
+                                </div>
+                                <button className="contact-form-btn">
+                                    Submit
+                                </button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
