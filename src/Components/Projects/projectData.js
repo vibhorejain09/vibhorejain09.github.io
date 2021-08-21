@@ -7,7 +7,7 @@ const myProjects = [
         id: 1,
         image: img1,
         name: "Portfolio",
-        description: "This projet contains components of a website that users can directly use while creating their website. Also contains projetcs to understand the basic functionalities of JavaScript. Built using HTML, CSS, JavaScript. Deployed on Github.",
+        description: "This is the basic Portfolio website, built using HTML, CSS, Javascript, React JS. It is single page react app with react scroll and moveToTop component present in it. Contains other component also like header, footer, contact form, cards, timeline. It is a Completely Responsive page.",
         sourcecode: "https://github.com/vibhorejain09/vibhorejain09.github.io",
         link: "https://vibhorejain09.github.io/",
     },
@@ -15,7 +15,7 @@ const myProjects = [
         id: 2,
         image: img2,
         name: "Hackathon Website",
-        description: "This projet contains components of a website that users can directly use while creating their website. Also contains projetcs to understand the basic functionalities of JavaScript. Built using HTML, CSS, JavaScript. Deployed on Github.",
+        description: "This Project is built in a team of three members for conducting a Hacathon event for a club, built using HTML, CSS, Javascript, React JS. It is a responsive website with all information regarding hacathon and team organising it. Contains components like FAQs, header, footer, countdown, cards, react-scroll, moveToTop component.",
         sourcecode: "https://github.com/ComputerClubGS/hackitout",
         link: "https://hack-it-out.tech/"
     },

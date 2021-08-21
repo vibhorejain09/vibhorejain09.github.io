@@ -20,7 +20,7 @@
     color: rgb(var(--primary-bg));
 }
 .mui-timeline-content-elementThree{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: lighter;
     font-style: italic;
     color: var(--content-text-color);
