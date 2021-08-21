@@ -20,7 +20,7 @@ function Contact() {
                         <img src={imgcontact} alt="conimg" style={{ width: halfWidth > 500 ? halfWidth * 0.5 : width * 0.4 }} className="conatct-content-image" />
                     </div>
                     <div className="contact-content-details">
-                        <p style={{ maxWidth: "500px" }}>
+                        <p style={{ maxWidth: "700px" }}>
                             A passionate programmer. Always eager to learn new
                             technologies. Third year student currently pursuing
                             my B.Tech in Computer Science from Shri Govindram

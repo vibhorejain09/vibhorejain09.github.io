@@ -20,7 +20,7 @@ function About() {
                         <img src={imgabout} alt="myimg" style={{ width: halfWidth > 500 ? halfWidth * 0.4 : width * 0.4 }} className="about-me-image" />
                     </div>
                     <div className="about-me-content">
-                        <p style={{ maxWidth: "700px" }}>
+                        <p style={{ maxWidth: "700px", lineHeight:"25px"}}>
                             A passionate programmer. Always eager to learn new
                             technologies. Third year student currently pursuing
                             my B.Tech in Computer Science from Shri Govindram

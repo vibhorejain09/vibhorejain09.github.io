@@ -8,6 +8,7 @@
 }
 .contact-content-details{
     font-size: 1rem;
+    color: var(--content-text-color);
 }
 .contact-content>* {
     padding: 1rem 1rem;
