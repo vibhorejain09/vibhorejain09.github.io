@@ -5,6 +5,7 @@ import { GitHub, Instagram, Facebook, Email, LinkedIn } from "@material-ui/icons
 import Typewriter from "typewriter-effect";
 import ScrollAnimation from 'react-animate-on-scroll';
 
+
 function Home() {
     return (
         <ScrollAnimation animateIn='fadeIn' delay={200}>

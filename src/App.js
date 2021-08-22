@@ -11,15 +11,15 @@ import Footer from './Components/Footer/index';
 function App() {
   return (
     <>
-    <Header />
-    <Home />
-    <About />
-    <Experience />
-    <Education />
-    <Skills />
-    <Projects />
-    <Contact />
-    <Footer />
+      <Header />
+      <Home />
+      <About />
+      <Experience />
+      <Education />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }
