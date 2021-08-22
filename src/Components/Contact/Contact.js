@@ -21,7 +21,7 @@ function Contact() {
                     </div>
                     <div className="contact-content-form">
                         <div className="contact-content-form-container">
-                            <form name="contact" method="POST" data-netlify="true">
+                            <form name="contact" method="post">
                                 <input type="hidden" name="form-name" value="contact" />
                                 <div className="contact-content-form-group">
                                     <input type="text" name="name" placeholder="Name" className="contact-content-form-details" required />
