@@ -33,3 +33,10 @@ body {
 ::-webkit-scrollbar-thumb{
   background-color: rgb(var(--primary-text-color));
 }
+
+@media only screen and (max-width:300px)
+{
+  *{
+    letter-spacing: normal;
+  }
+}
