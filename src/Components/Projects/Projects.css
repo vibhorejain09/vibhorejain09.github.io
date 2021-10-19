@@ -18,6 +18,7 @@
   padding: 1rem 1rem;
   border-radius: 0.7rem;
   justify-content: space-evenly;
+  min-height: 540px;
 }
 .project-image{
   display: block;
