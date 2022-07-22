@@ -25,7 +25,7 @@ const myProjects = [
         id: 3,
         image: img1,
         name: "Portfolio",
-        description: "This is the basic Portfolio website, built using HTML, CSS, Javascript, React JS. It is single page react app with react scroll and moveToTop component present in it. Contains other component also like header, footer, contact form, cards, timeline. It is a Completely Responsive page.",
+        description: "A single page react portfolio app made with HTML, CSS, Javascript, and React Js with scroll animation and react scroll used in it. Implemented components like header, footer, cards, timeline, contact form, and move to top from scratch. Use of Netlify form for receiving the response of contact form. Used custom react hooks for setting the window size for the responsiveness of the website.",
         sourcecode: "https://github.com/vibhorejain09/vibhorejain09.github.io",
         link: "https://vibhore-jain.netlify.app/",
     },
