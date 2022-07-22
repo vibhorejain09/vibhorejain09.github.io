@@ -2,7 +2,7 @@ const educationdatas = [
     {
         class: "B.Tech in Computer Science",
         institution: "Shri G.S. Institute of Technology and Science, Indore",
-        score: "CGPA: 8.07/10",
+        score: "CGPA: 8.25/10",
         year: "2019-23",
     },
     {
