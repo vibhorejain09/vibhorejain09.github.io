@@ -35,7 +35,7 @@ const myProjects = [
         name: "Hackathon Website",
         description: "This Project is built in a team of three members for conducting a Hacathon event for a club, built using HTML, CSS, Javascript, React JS. It is a responsive website with all information regarding hacathon and team organising it. Contains components like FAQs, header, footer, countdown, cards, react-scroll, moveToTop component.",
         sourcecode: "https://github.com/ComputerClubGS/hackitout",
-        link: "https://hack-it-out.tech/"
+        link: "https://hiov1-583c6.web.app/"
     },
     {
         id: 5,
